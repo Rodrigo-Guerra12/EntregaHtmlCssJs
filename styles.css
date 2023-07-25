@@ -65,6 +65,18 @@ a {
     cursor: pointer;
    
 }
+
+.btn1:hover{
+    background: linear-gradient(90deg,rgba(35, 130, 206, 1) 0%, #fbfafa 100%);
+    
+    
+}
+.btn2:hover{
+    background: linear-gradient(90deg,rgb(252, 253, 253) 0%,rgba(35, 130, 206, 1)100%);
+}
+.submit:hover{
+    background: linear-gradient(90deg,rgba(35, 130, 206, 1) 0%, #fbfafa 100%);
+}
 h5 {
     text-align: right;
     margin-right: 60px;
