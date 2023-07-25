@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    max-height: max-content;
+    font-family: "poppins" sans-serif;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    
+
+    
+}
+
+nav  {
+    margin-right: 650px;
+
+    
+    
+
+}
+a {
+    text-decoration: none;
+    color: black;
+    text-decoration: wavy;
+    font-size: 15px;
+    margin-inline-start: 12px;
+    font-weight: 550;
+}
+
+.logo {
+    width: 50px;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.btn1 {
+    border: solid 1px;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 5px;
+    height: 28px;
+    width: 90px;
+    text-align: center;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+.btn2 {
+    border: solid 1px;
+    padding: 5px;
+    margin-right: 30px;
+    background-color:rgba(35, 130, 206, 1);
+    border-radius: 5px;
+    height: 28px;
+    width: 90px;
+    text-align: center;
+    font-weight: 550;
+    cursor: pointer;
+   
+}
+h5 {
+    text-align: right;
+    margin-right: 60px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.titulos {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 268px 0px 50px;
+}
+.parrafos {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 198px 0px 50px;
+   
+}
+
+.t2 {
+    margin: 20px 80px 0px 50px;
+}
+
+.foto {
+    width: 500px;
+    height: 280px;
+    margin: 20px 0px 0px 50px;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hola {
+    display: flex;
+}
+
+.apellido {
+    margin: 20px 180px 0px 20px;
+}
+
+.nombre {
+    margin: 20px 50px 0px 20px;
+}
+
+input {
+    border: solid grey 1px;
+    border-radius: 5px;
+    height: 40px;
+    text-align: center
+}
+
+.email {
+   margin: 20px 20px 20px 22px;    
+
+}
+.correo {
+    width: 280px;
+    height: 40px;
+}
+
+.telefono {
+   margin: 20px 200px 0px 0px;
+   width: 198px;
+}
+
+.pais {
+    margin: 20px 50px 0px 20px;
+    
+}
+
+
+select {
+    border: solid grey 1px;
+    border-radius: 5px;
+    height: 40px;
+    text-align: center;
+    
+}
+
+textarea {
+    resize: none;
+    border: solid grey 1px;
+    border-radius: 5px;
+    height: 80px;
+    width: 280px;
+    margin: 20px 50px 0px 20px;
+    text-align: center;
+
+}
+
+.comentario {
+    display: flex;
+    flex-direction: column;
+}
+
+.submit {
+    margin: 50px 50px 0px 200px;
+    border: solid 1px;
+    padding: 5px;
+    background-color:rgba(35, 130, 206, 1);
+    border-radius: 5px;
+    height: 28px;
+    width: 90px;
+    text-align: center;
+    font-weight: 550;
+    cursor: pointer;
+    
+}
+
+.ubicacion {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0px 0px 50px;
+
+}
+
+.uy {
+    margin-left: 20px;
+}
+
+.direccion {
+    margin: 2px 0px 0px 90px;
+    
+   
+   
+}
+
+.mapa {
+    margin: -80px 0px 0px 350px;
+    
+}
+
+.map {
+    width: 200px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tel {
+    display: flex;
+    margin: 0px 0px 0px 50px;
+    cursor: pointer;
+}
+
+.phone {
+    margin-right: 20px;
+    
+}
+
+
+
+
+
+
+
+
+

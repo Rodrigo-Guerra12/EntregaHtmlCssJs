@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html l>
+<head>
+    <title>Seguros Uruguay</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" type="imagen/logo" href="Images/logo.png">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+<body>
+    <header >
+        <img class="logo" src="Images/logo.png" alt="logo"> 
+        <nav class="nav">
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Contacto</a>
+            <a href="#">Trabaja con nosotros</a>
+        </nav>
+        <div>
+            <button class="btn1">Ingresar</button>
+            <button class="btn2">Registrate</button>
+        </div>
+    </header>
+    <h5>Olvidó su contraseña?</h5>
+    <div class="titulos">
+        <h1>Necesitas un seguro?</h1>
+        <h1>Precisas una cotizacion?</h1>
+    </div>
+    <div class="parrafos">
+        <div class="uno">
+            <p>Ya no busque donde asegurar sus propiedades o vehículos.</p>
+            <p>En Seguros Uruguay tenemos las mejores opciones para pólizas,</p>
+            <p>parciales o totales.</p>
+        </div>
+        <div class="dos">
+            <p>Bríndenos los siguientes datos y un agente se </p> 
+            <p>pondrá en contacto para hacerle llegar las diferentes opciones. </p>
+        </div>
+    </div>
+    <div class="contenido">
+        <img class="foto" src="Images/imagenEntregable1.png">
+        
+        <form>
+            <div class="hola">
+                <div class="nombre" >
+                    <p class="tres">Nombre</p>
+                    <input type="text" id="nameInput" placeholder="Nombre">
+                </div>
+                <div class="apellido">
+                    <p class="dos" >Apellido</p>
+                    <input type="text" id="lastNameInput" placeholder="Apellido">
+                </div>
+            </div>
+            <div class="email" >
+                <p class="cuatro">Email</p>
+                <input class="correo" type="text" id="emailInput" placeholder="Email">
+            </div>
+            <div class="pais">
+                <p>Telefono</p>
+                <select>
+                    <option value="Uruuay">Uy(+598)</option>
+                    <option value="Uruuay">Ar(+549)</option>
+                </select>
+                <input class="telefono" type="tel" id="phoneInput" placeholder="Su numero de telefono">
+            </div>
+            <button onclick="mostrarDatos()" class="submit" type="submit">Enviar</button>
+            
+        </form>
+       
+    </div>
+        <footer>
+            <div class="ubicacion">
+                <img class="ubic" id="mapita" src="Images/Ubicacion.png">
+                <h3 class="uy">Uruguay</h3>
+            </div>
+            <div>
+                <div class="direccion">
+                    <p>Montevideo</p>
+                    <p>Camino Ariel 4376, 12900 Montevideo,</p>
+                    <p>Departamento de Montevideo</p>
+                    
+                </div>
+                <div class="mapa">
+                    <img class="map" src="Images/mapa.png">
+
+                </div>
+            </div>
+            <div class="tel">
+                <img class="phone" src="Images/Telefono.png">
+                <p>0800-00-00</p>
+
+            </div>
+                      
+        </footer>
+
+    <script src="app.js"></script>
+ 
+</body>
+</html>
