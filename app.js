@@ -32,20 +32,23 @@ function noReiniciar() {
   
     if (name && lastName && email && phone) {
       mostrarDatos(datosUser);
+     
+  
     
     }
   }
-
+ 
   function mostrarDatos(datos) {
     console.log("datos: ", datos);
     const { name, lastName, email, phone } = datos;
     window.alert(
-      ` Nombre: ${name} | Apellido: ${lastName} | Email: ${email} | Telefono: ${phone} `,
-      console.log(` Nombre: ${name}, Apellido: ${lastName}, Email: ${email}, Telefono: ${phone} `)
+      ` Nombre: ${name} | Apellido: ${lastName} | Email: ${email} | Telefono: ${phone} `
+      
     );
+    console.log(` Nombre: ${name}, Apellido: ${lastName}, Email: ${email}, Telefono: ${phone} `);
   }
-
+  
   
   noReiniciar();
 
-  mostrarDatos();
+  // mostrarDatos();
